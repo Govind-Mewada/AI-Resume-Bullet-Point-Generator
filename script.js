@@ -5,8 +5,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const loader = document.getElementById('loader');
 
     // **IMPORTANT**: Replace "YOUR_API_KEY" with your actual Google AI API key
-    const API_KEY = 'AIzaSyAxwA86qC3TtZrf0-LLLCQzS4TVmcBEMhE';
-    const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${API_KEY}`;
+    const API_KEY = 'AIzaSyAxwA86qC3TtZrf0-LLLCQzS4TVmcBEMhE'; // <-- REVOKE THE OLD KEY AND PASTE YOUR NEW ONE HERE
+    const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=${API_KEY}`;
 
     generateBtn.addEventListener('click', generateBulletPoints);
 
